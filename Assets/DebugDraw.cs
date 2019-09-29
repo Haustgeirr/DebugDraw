@@ -10,6 +10,8 @@ public static class DebugDraw
 
         Debug.DrawLine(point - up, point + up, colour, duration, depthTest);
         Debug.DrawLine(point - right, point + right, colour, duration, depthTest);
+
+        Debug.Log("test");
     }
 
     public static void Arrow2D(Vector2 point, Vector2 direction, float scale, Color colour, bool arrowTowardsPoint = true, float duration = 0f, bool depthTest = true)
